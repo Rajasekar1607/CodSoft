@@ -1,0 +1,698 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.Container{
+    border: 0.1px solid black;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 1300px;
+    height: 4500px;  
+    box-shadow: 1px 1px 20px springgreen;
+}
+
+h2,ul,li{
+    display: inline;
+}
+
+ul{
+    margin-left: 60px;
+}
+
+li{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+nav{
+    margin-left: 280px;
+    margin-top: 70px;
+    border: 2px solid black ;
+    border-radius: 30px;
+    padding: 13px;
+    padding-left: 15px;
+    width: 670px;
+    height: 30px;
+    background-image: url(container\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Contact{
+    margin-left: 120px;
+    margin-top: -10px;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 100px;
+    background-color:springgreen;
+    color: black;
+}
+
+.small{
+    margin-left: 600px;
+    margin-top: 100px;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    width: 40px;
+    padding: 8px;
+    padding-left: 12px;
+    box-shadow: 1px 1px 20px cadetblue;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+p{
+    color: grey;
+}
+
+.start{
+    margin-left: 37%;
+    margin-top: 30px;
+    width:95px;
+    padding: 10px;
+    padding-left: 35px;
+    border-radius: 25px;
+    background-color: springgreen;
+    color: black;
+}
+
+.work{
+    margin-left:49%;
+    margin-top: -61px;
+    border: 2px solid springgreen;
+    color: springgreen;
+    width:110px;
+    padding: 10px;
+    padding-left: 17px;
+    border-radius: 25px;
+}
+
+.number{
+    margin-left: 34%;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.project{
+    margin-left: 31.5%;
+    color: gray; 
+}
+
+.pipe{
+    margin-left: 43%;
+    margin-top: -100px;
+    text-shadow: 0 0 20px springgreen, 0 0 40px springgreen;
+}
+
+.number1{
+    margin-left: 48%;
+    margin-top: -90px;
+    font-size: 20px;
+}
+
+.client{
+    margin-left: 46.5%;
+    color: gray; 
+}
+
+.pipe1{
+    margin-left: 56%;
+    margin-top: -100px;
+    text-shadow: 0 0 20px springgreen, 0 0 40px springgreen;
+}
+
+.number2{
+    margin-left: 61.5%;
+    margin-top: -90px;
+    font-size: 20px;
+}
+
+.Industry{
+    margin-left: 59%;
+    color: gray; 
+}
+
+.Service{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;   
+}
+
+.Logo{
+    margin-left: 205px;
+    margin-top: 45px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    padding-left: 29px;
+    width: 250px;
+    height: 350px;
+    background-image: url(service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Design{
+    margin-left: 500px;
+    margin-top: -350px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    padding-left: 29px;
+    width: 250px;
+    height: 350px;
+    background-image: url(service1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Portfolio{
+    margin-left: 795px;
+    margin-top: -350px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    padding-left: 29px;
+    width: 250px;
+    height: 350px;
+    background-image: url(service2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Projects{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Netflix{
+    margin-top: 45px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    height: 400px;
+    width: 870px;
+    margin-left: 205px;
+}
+
+.Netflix1{
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    width: 400px;
+    height: 350px;
+    margin-left: 448px;
+    margin-top: 23px;    
+}
+
+.id{
+    color: white;
+    margin-left: 40px;
+    margin-top: -335px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 60px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.Clone{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.stream{
+    margin-left: 40px;
+}
+
+.identity{
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 60px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.brand{
+    margin-left: 140px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 70px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.design{
+    margin-left: 250px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 55px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.user{
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 60px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.extra{
+    margin-left: 140px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 85px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.View{
+    color: springgreen;
+    margin-left: 40px;
+    margin-top: -29px;
+}
+
+
+
+.Recipe{
+    margin-top: 45px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    height: 400px;
+    width: 870px;
+    margin-left: 205px;
+}
+
+
+.Recipe1{
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    width: 400px;
+    height: 350px;
+    margin-left: 448px;
+    margin-top: 23px;
+}
+
+.Design1{
+    margin-left: 140px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 55px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.commerce{
+    margin-left: 235px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 90px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.landing{
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 95px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.extra1{
+    margin-left: 175px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 85px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+
+.Portfolio-Design{
+    margin-top: 45px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    height: 400px;
+    width: 870px;
+    margin-left: 205px;
+}
+
+.Portfolio-Design1{
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    width: 400px;
+    height: 350px;
+    margin-left: 448px;
+    margin-top: 23px;
+}
+
+.Depository{
+    color: white;
+    margin-left: 40px;
+    margin-top: -335px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 80px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.Portfolio1{
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 65px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.Depository1{
+    margin-left: 145px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 80px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.user1{
+    margin-left: 265px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 55px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.visual{
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 105px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.extra2{
+    margin-left: 185px;
+    margin-top: -52px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 85px;
+    padding: 8px;
+    padding-left: 18px;
+}
+
+.question{
+    color: white;
+    margin-left: 615px;
+    margin-top: 150px;
+    border: 2px solid cadetblue;
+    border-radius: 25px;
+    width: 40px;
+    padding: 5px;
+    padding-left: 12px;
+}
+
+.Frequent{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.long-project{
+    margin-top: 20px;
+    margin-left: 205px;
+    border: 1px solid springgreen;
+    border-radius: 15px;
+    width: 750px;
+    height: 120px;
+    background-image: url(question\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.define{
+    margin-left: 20px;    
+}
+
+.paragraph{
+    margin-top: -10px;
+}
+
+.minus{
+    border: 2px solid springgreen;
+    color: springgreen;
+    border-radius: 30px;
+    padding-left: 7px;
+    width: 15px;
+    margin-left: 95%;
+    margin-top: -90px;
+}
+
+.project-take{
+    margin-top: 20px;
+    margin-left: 205px;
+    border: 1px solid springgreen;
+    border-radius: 15px;
+    width: 750px;
+    height: 70px;
+    background-image: url(question\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.define1{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.plus{
+    border: 2px solid springgreen;
+    color: springgreen;
+    border-radius: 30px;
+    padding-left: 5px;
+    width: 15px;
+    margin-left: 95%;
+    margin-top: -42px;
+}
+
+.pricing{
+    margin-top: 20px;
+    margin-left: 205px;
+    border: 1px solid springgreen;
+    border-radius: 15px;
+    width: 750px;
+    height: 70px;
+    background-image: url(question\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.define2{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.plus1{
+    border: 2px solid springgreen;
+    color: springgreen;
+    border-radius: 30px;
+    padding-left: 5px;
+    width: 15px;
+    margin-left: 95%;
+    margin-top: -42px;
+}
+
+.revision{
+    margin-top: 20px;
+    margin-left: 205px;
+    border: 1px solid springgreen;
+    border-radius: 15px;
+    width: 750px;
+    height: 70px;
+    background-image: url(question\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.define3{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.plus2{
+    border: 2px solid springgreen;
+    color: springgreen;
+    border-radius: 30px;
+    padding-left: 5px;
+    width: 15px;
+    margin-left: 95%;
+    margin-top: -42px;
+}
+
+.start-project{
+    margin-top: 20px;
+    margin-left: 205px;
+    border: 1px solid springgreen;
+    border-radius: 15px;
+    width: 750px;
+    height: 70px;
+    background-image: url(question\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.define4{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.plus3{
+    border: 2px solid springgreen;
+    color: springgreen;
+    border-radius: 30px;
+    padding-left: 5px;
+    width: 15px;
+    margin-left: 95%;
+    margin-top: -42px;
+}
+
+.request{
+    margin-top: 20px;
+    margin-left: 205px;
+    border: 1px solid springgreen;
+    border-radius: 15px;
+    width: 750px;
+    height: 70px;
+    background-image: url(question\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.define5{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.plus4{
+    border: 2px solid springgreen;
+    color: springgreen;
+    border-radius: 30px;
+    padding-left: 5px;
+    width: 15px;
+    margin-left: 95%;
+    margin-top: -42px;
+}
+
+.Frequent-question{
+    margin-left: 60px;
+}
+
+.final-box{
+    border: 1px solid springgreen;
+    border-radius: 20px;
+    width: 870px;
+    height: 300px;
+    margin-left: 205px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 50px;
+    background-image: url(box\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    font-size: 14px;
+    
+}
+
+.call{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 379px;
+    border: 1px solid springgreen;
+    border-radius: 25px;
+    width: 100px;
+    padding: 5px;
+    background-color: springgreen;
+    color: black;
+}
+
+.pixel{
+    margin-left: 205px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: springgreen;
+}
+
+.list{
+    margin-left: 26%;
+    margin-top: -25px;
+    color: gray;
+}
+
+.ball{
+    font-size: 25px;
+    margin-left: 74%;
+    margin-top: -20px;
+    color: gray;
+}
+
+.insta{
+    font-size: 25px;
+    margin-left: 77%;
+    margin-top: -28px;
+    color: gray;
+}
+
+.linkedin{
+    font-size: 25px;
+    margin-left: 80%;
+    margin-top: -30px;
+    color: gray;
+}
+
+.Worldwide{
+    margin-left: 69%;
+    margin-top: 50px;
+}
+
+.pixel-plus{
+    margin-left: 205px;
+    margin-top: -35px;
+}
+
+.space{
+    border: 1px solid black;
+    height: 100px;
+}
